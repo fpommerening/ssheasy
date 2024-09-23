@@ -1,4 +1,4 @@
-name: Build Coffee maker
+name: Build SSH Easy
 on:
   workflow_dispatch:
   push:
