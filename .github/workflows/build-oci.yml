@@ -37,7 +37,7 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v5
       with:
-        dockerfile: ./nginx/Dockerfile
+        file: ./nginx/Dockerfile
         platforms: linux/amd64,linux/arm64
         push: true
         tags: ${{ steps.meta-web.outputs.tags }}
